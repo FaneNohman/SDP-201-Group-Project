@@ -1,11 +1,11 @@
 
 <p>
-Инструкция для устоновки проекта:<br/>
-    1.Клонируем гит в папку командой <b>git clone https://github.com/FaneNohman/SDP-201-Group-Project.git</b><br/>
-    2.Устанавливаем зависемости командой <b>composer install</b><br/>
-    3.Скопировать из файла .env.example командой <b>copy .env.example .env</b><br/>
-    4.Добавить уникальный ключ приложения командой  <b>php artisan key:generate</b><br/>
-    5.В .env насторить базу данных <b>DB_CONNECTION=mysql<br/>
+<h3>Инструкция для устоновки проекта:</h3><br/>
+    1. Клонируем гит в папку командой <b>git clone https://github.com/FaneNohman/SDP-201-Group-Project.git</b><br/>
+    2. Устанавливаем зависемости командой <b>composer install</b><br/>
+    3. Скопировать из файла .env.example командой <b>copy .env.example .env</b><br/>
+    4. Добавить уникальный ключ приложения командой  <b>php artisan key:generate</b><br/>
+    5. В .env насторить базу данных <br/><b>DB_CONNECTION=mysql<br/>
                                     DB_HOST=127.0.0.1<br/>
                                     DB_PORT=3306<br/>
                                     DB_DATABASE="название базы"<br/>
