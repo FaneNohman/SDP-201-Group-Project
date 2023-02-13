@@ -1,16 +1,16 @@
 
 <p>
-Инструкция для устоновки проекта:
-    1.Клонируем гит в папку командой <b>git clone https://github.com/FaneNohman/SDP-201-Group-Project.git</b>
-    2.Устанавливаем зависемости командой <b>composer install</b>
-    3.Скопировать из файла .env.example командой <b>copy .env.example .env</b>
-    4.Добавить уникальный ключ приложения командой  <b>php artisan key:generate</b>
-    5.В .env насторить базу данных <b>DB_CONNECTION=mysql
-                                    DB_HOST=127.0.0.1
-                                    DB_PORT=3306
-                                    DB_DATABASE="название базы"
-                                    DB_USERNAME=root
-                                    DB_PASSWORD=</b>
+Инструкция для устоновки проекта:<br/>
+    1.Клонируем гит в папку командой <b>git clone https://github.com/FaneNohman/SDP-201-Group-Project.git</b><br/>
+    2.Устанавливаем зависемости командой <b>composer install</b><br/>
+    3.Скопировать из файла .env.example командой <b>copy .env.example .env</b><br/>
+    4.Добавить уникальный ключ приложения командой  <b>php artisan key:generate</b><br/>
+    5.В .env насторить базу данных <b>DB_CONNECTION=mysql<br/>
+                                    DB_HOST=127.0.0.1<br/>
+                                    DB_PORT=3306<br/>
+                                    DB_DATABASE="название базы"<br/>
+                                    DB_USERNAME=root<br/>
+                                    DB_PASSWORD=</b><br/>
 </p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
