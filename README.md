@@ -5,7 +5,7 @@
     2. Устанавливаем зависимости командой <b>composer install</b><br/>
     3. Создаём файл .env из файла .env.example командой <b>copy .env.example .env</b> или вручную создаём файл .env и копируем текст из .env.example<br/>
     4. Добавить уникальный ключ приложения командой  <b>php artisan key:generate</b><br/>
-    5. В .env настраиваем базу данных в строки <br/><b>DB_CONNECTION=mysql<br/>
+    5. В .env настраиваем базу данных:<br/><b>DB_CONNECTION=mysql<br/>
                                     DB_HOST=127.0.0.1<br/>
                                     DB_PORT=3306<br/>
                                     DB_DATABASE="название базы"<br/>
