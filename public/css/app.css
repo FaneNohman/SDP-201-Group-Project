@@ -1,0 +1,170 @@
+html 
+{ 
+    width:100%; 
+    height: 100%; 
+}
+
+body
+{
+    background: #a0a0a0;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size: 80.01%;
+    font-family: Verdana;
+}
+
+#page-wrapper
+{	
+    min-height:100%;	
+    margin: 0 auto -90px;
+}
+
+* html #page-wrapper 
+{ 
+    height: 100%; 
+}
+
+#header
+{
+    background: #552f3f;
+    height: 106px; 
+    position: relative; 
+    z-index: 10; 
+    width:100%; 
+    margin:0 auto;
+}
+
+#menu-top, #menu-top ul
+{
+	margin:0; padding:0;
+	min-height:27px;
+	width:100%;
+	list-style:none;
+	font-size:23px;
+	float:left;
+	background: none;
+}
+
+#menu-top a
+{
+	display:block;
+    color: #ec9a2f;
+	padding:35px 25px;
+	text-decoration:none;
+	text-align:center;
+	outline: none;
+}
+
+#menu-top a:hover
+{
+    color: #ff3535;
+}
+
+#menu-top li 
+{ 
+    float:left; 
+}
+#content 
+{ 
+    width:878px; 
+    overflow: hidden; 
+    margin: 20px auto 29px; 
+    zoom: 1;
+}
+
+#sidebar 
+{ 
+    background: #552f3f;
+    width: 233px; 
+    float: left; 
+}
+
+#sidebar p a
+{
+    text-decoration: none;
+    color: #dadada;
+}
+
+#form
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #806060;
+    padding: 10px;
+
+}
+
+#single-item
+{
+    background: #dadada;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #806060;
+    padding: 10px;
+}
+
+div.content-block 
+{ 
+    margin-bottom: 24px; 
+}
+
+div.content-block-inner 
+{ 
+    padding: 22px 18px 22px 21px;
+}
+#item
+{
+    padding-top: 20px;
+    background: #ffc1c1;
+
+}
+
+#item p a
+{
+    color: #a8265c;
+    text-decoration: none;
+    padding-top: 20px;
+    background: #ffc1c1;
+
+}
+
+#workarea 
+{ 
+    padding-top:10px; 
+    width:612px; 
+    float: right;
+}
+#footer
+{
+    color: #f3c486;
+    background: #552f3f no-repeat left top;
+    height: 90px; 
+    width:878px; 
+    margin:0 auto;  
+    position: relative;
+    display: flex;
+
+}
+
+#copyright
+{
+    padding-right: 20px;
+}
+
+#footer-links
+{
+    display: flex;
+}
+
+#footer-links a
+{
+    padding-top: 13px;
+    text-decoration: none;
+    color: #dadada;
+}
+

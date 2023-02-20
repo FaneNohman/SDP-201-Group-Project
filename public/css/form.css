@@ -1,0 +1,36 @@
+html 
+{ 
+    width:100%; 
+    height: 100%; 
+}
+
+body
+{
+    background: #707070;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size: 80.01%;
+    font-family: Verdana;
+}
+
+#form
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+
+}
+#links_back
+{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+#links_back p a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
