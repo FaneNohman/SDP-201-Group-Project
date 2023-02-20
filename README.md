@@ -1,3 +1,17 @@
+
+<p>
+<h3>Инструкция для установки проекта:</h3><br/>
+    1. Клонируем гит в папку командой <b>git clone https://github.com/FaneNohman/SDP-201-Group-Project.git</b><br/>
+    2. Устанавливаем зависимости командой <b>composer install</b><br/>
+    3. Создаём файл .env из файла .env.example командой <b>copy .env.example .env</b> или вручную создаём файл .env и копируем текст из .env.example<br/>
+    4. Добавить уникальный ключ приложения командой  <b>php artisan key:generate</b><br/>
+    5. В .env настраиваем базу данных:<br/><b>DB_CONNECTION=mysql<br/>
+                                    DB_HOST=127.0.0.1<br/>
+                                    DB_PORT=3306<br/>
+                                    DB_DATABASE="название базы"<br/>
+                                    DB_USERNAME=root<br/>
+                                    DB_PASSWORD=</b><br/>
+</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
