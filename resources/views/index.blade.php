@@ -26,9 +26,8 @@
     </table>
 </div>
 <script>
-    $(document).ready(function () {
-        $('#tbTask').DataTable();
-        $('.dataTables_length').addClass('bs-select');
-    });
-</script>
+  $(document).ready(function() {
+    $('#tbTask').DataTable();
+} );
+ </script>
 @endsection

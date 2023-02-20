@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title')</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.3.js"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
     @yield('styles')
 </head>
 <body>
@@ -36,14 +38,13 @@
     </div>
     <div id="footer">
         <div id="copyright">
-            <p>&copy;2022- <?php echo date("Y"); ?></p>
+            <p>&copy;2023- <?php echo date("Y"); ?></p>
         </div>
         <div id="footer-links">
-            <p>tel: </p><a href="/contact_info">8-747-245-29-99</a>
+            <p>tel: </p><a href="/contact_info">8-xxx-xxx-xx-xx</a>
             
         </div>
         <div id="footer-design"></div>
     </div>
-
 </body>
 </html>

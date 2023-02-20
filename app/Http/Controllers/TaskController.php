@@ -33,7 +33,7 @@ class TaskController extends Controller
      */
     public function indexNotToday($date)
     {
-        $tasks = Task::where(['user_id'=>Auth::id()])->whereDate();
+        $tasks = Task::where(['user_id'=>Auth::id()])->whereDate('');
         return view('index',['items'=>$tasks]);
     }
 

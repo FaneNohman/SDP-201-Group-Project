@@ -75,5 +75,7 @@ class DatabaseSeeder extends Seeder
             'deadline' => '2023-04-11',
             'status' => 'in_work',
         ]);
+
+        //\App\Models\Task::factory(20)->create();
     }
 }
