@@ -3,6 +3,9 @@
 @section('title', 'Main page')
 
 @section('content')
+<div>
+    
+</div>
 <div id="workarea">
     <table id="tbTask" class="table table-striped table-bordered table-sm">
         <thead>
@@ -20,6 +23,7 @@
                     <th>{{$task->task_name}}</th>
                     <th>{{$task->deadline}}</th>
                     <th>{{$task->work_type}}</th>
+                    
                 </tr>
             @endforeach
         </tbody>

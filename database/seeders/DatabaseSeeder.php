@@ -21,6 +21,18 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+        // \App\Models\WorkType::factory()->create([
+        //     'work_type_name'=>'development'
+        // ]);
+        // \App\Models\WorkType::factory()->create([
+        //     'work_type_name'=>'analysis'
+        // ]);
+        // \App\Models\WorkType::factory()->create([
+        //     'work_type_name'=>'testing'
+        // ]);
+        // \App\Models\WorkType::factory()->create([
+        //     'work_type_name'=>'documentation'
+        // ]);
 
         \App\Models\User::factory()->create([
             'name' => 'Test User Admin',
@@ -75,7 +87,22 @@ class DatabaseSeeder extends Seeder
             'deadline' => '2023-04-11',
             'status' => 'in_work',
         ]);
+        \App\Models\Commission::factory()->create([
+            'task_id' => '1',
+            'hour_from' => '7',
+            'hour_to' => '9',
+        ]);
+        \App\Models\Commission::factory()->create([
+            'task_id' => '2',
+            'hour_from' => '8',
+            'hour_to' => '10',
+        ]);
+        \App\Models\Commission::factory()->create([
+            'task_id' => '3',
+            'hour_from' => '12',
+            'hour_to' => '15',
+        ]);
 
-        //\App\Models\Task::factory(20)->create();
+        \App\Models\Task::factory(20)->create();
     }
 }

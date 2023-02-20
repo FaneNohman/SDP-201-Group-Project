@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 use App\Models\Task;
+use Carbon\Carbon;
 
 class TaskController extends Controller
 {
@@ -21,9 +22,12 @@ class TaskController extends Controller
         return view('index',['tasks'=>$tasks]);
     }
 
-    public function userStat(){
+    public function userStat($date=0){
+        if($date == 0){
+            $date = Carbon::now();
+        }
         $tasks = Task::where(['user_id'=>Auth::id()])->get();
-        return view('index',['tasks'=>$tasks]);
+        return view('user_stat',['tasks'=>$tasks]);
     }
 
     /**
@@ -31,7 +35,7 @@ class TaskController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function indexNotToday($date)
+    public function indexNotToday($date=0)
     {
         $tasks = Task::where(['user_id'=>Auth::id()])->whereDate('');
         return view('index',['items'=>$tasks]);

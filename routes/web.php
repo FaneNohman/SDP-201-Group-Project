@@ -23,6 +23,7 @@ Route::group(['middleware' => ['auth','admin']], function() {
 });
 
 Route::group(['middleware' => ['auth','manager']], function() {
+    
 });
 
 Route::group(['middleware' => ['auth','user']], function() {
